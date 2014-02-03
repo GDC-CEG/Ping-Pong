@@ -28,17 +28,17 @@ int main()
         }
 
 
-        handle_input();
+		    handle_input();
 
-        update();
+		    update();
 
-        perform_ai();
+		    perform_ai();
 
         // clear the window with black color
-        window->clear(sf::Color::White);
+		    window->clear(sf::Color::White);
 	    
         // draw everything here...
-        display(window);
+		    display(window);
 
         // end the current frame
         window->display();
